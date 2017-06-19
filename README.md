@@ -29,7 +29,7 @@ You can use whichever testing tools you prefer: `console.assert()` (builtin to N
 
 ### Show a weekday
 
-Write a function `weekday(date)` to find the weekday for a given `Date` object, returing either  'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', or 'Sun'.
+Write a function `weekday(date)` to find the weekday for a given `Date` object, returning either  'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', or 'Sun'.
 
 Example:
 
