@@ -1,0 +1,22 @@
+{
+  "name": "phase-2-challenge",
+  "version": "1.0.0",
+  "description": "phase 2 coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MsMishi/phase-2-challenge.git"
+  },
+  "author": "Mishi Charles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MsMishi/phase-2-challenge/issues"
+  },
+  "homepage": "https://github.com/MsMishi/phase-2-challenge#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
