@@ -19,7 +19,7 @@ Each requirement has a point value. A fully complete requirement gets full point
 
 - [x] __10:__ Solution is in a public GitHub repository called `phase-2-challenge`.
 - [x] __10:__ Solution repository has 4 folders: `part-1`, `part-2`, and `part-3`, and `part-4`.
-- [ ] __20:__ Git history shows frequent commits.
+- [x] __20:__ Git history shows frequent commits.
 
 ## Part 1: Write tests and solutions for these functions
 
@@ -62,7 +62,7 @@ snippet("Hello, world!", 20) // => "Hello, world!"
 
 - [ ] __10:__ A test using expected/valid inputs for the `snippet()` function is written in `tests.js`.
 - [ ] __10:__ A test using unexpected/invalid inputs for the `snippet()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `snippet()` is defined in `functions.js`.
+- [x] __30:__ Correct implementation of the `snippet()` is defined in `functions.js`.
 - [ ] __10:__ Tests for `snippet()` are passing.
 
 ### Number of properties
@@ -181,15 +181,15 @@ Design a layout to match the following wireframe:
 
 ### Requirements
 
-- [ ] __10:__ All files are stored under the `part-3/` folder
-- [ ] __20:__ No third party CSS libraries are used (all code must be written from scratch)
-- [ ] __10:__ HTML and CSS are separated into their own files.
-- [ ] __20:__ Page has a full-width header with the site title "Grocer" and a button "Cart"
-- [ ] __10:__ Site title "Grocer" is aligned to the left
-- [ ] __10:__ "Cart" button is aligned to the right
-- [ ] __20:__ Page has a "Sections" sidebar with all sections for grocery items
-- [ ] __10:__ Page has a main content area showing each of the grocery items
-- [ ] __20:__ Main content lists all grocery items' name, price, and an "Add to cart" button
+- [x] __10:__ All files are stored under the `part-3/` folder
+- [x] __20:__ No third party CSS libraries are used (all code must be written from scratch)
+- [x] __10:__ HTML and CSS are separated into their own files.
+- [x] __20:__ Page has a full-width header with the site title "Grocer" and a button "Cart"
+- [x] __10:__ Site title "Grocer" is aligned to the left
+- [x] __10:__ "Cart" button is aligned to the right
+- [x] __20:__ Page has a "Sections" sidebar with all sections for grocery items
+- [x] __10:__ Page has a main content area showing each of the grocery items
+- [x] __20:__ Main content lists all grocery items' name, price, and an "Add to cart" button
 - [ ] __20:__ Clicking on a section in the "Sections" sidebar will jump to that section
 - [ ] __10:__ Main content organizes all grocery items by section
 

@@ -1,3 +1,61 @@
-title{
+body {
+  font-family: "Comic Sans MS";
+}
 
+h3 {
+  margin: inherit;
+}
+
+button {
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.sections-menu ul {
+  list-style: none;
+  margin-top: 0px;
+  padding-left: 0px
+}
+
+h1 {
+  justify-content: center;
+  flex-direction: row;
+  align-self: flex-start;
+  margin-top: 0px;
+  margin-right: 200px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border: solid 4px black;
+}
+
+.cart {
+  align-items: flex-end;
+}
+
+.grocer-title {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.main-window {
+  display: flex;
+}
+
+.sections {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  border: solid 4px black;
+}
+
+.sections-menu {
+  border-top: solid 4px black;
+}
+
+.main-panel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
