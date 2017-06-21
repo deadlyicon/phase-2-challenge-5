@@ -52,7 +52,10 @@ function numProps(obj) {
 
 /*-----------------------------------------------------*/
 
-let filterBetween(array, min, max) =
-  arr.filter(function (x, min, max) {
-    return x <= min && x >= max
+function filterBetween(array, min, max) {
+  let filteredArr = array.filter(function (x) {
+    return x >= min && x <= max})
+    return filteredArr
   }
+  let arr = [1, 2, 3, 4, 5, 6, 7]
+  filterBetween(arr, 3, 6)
