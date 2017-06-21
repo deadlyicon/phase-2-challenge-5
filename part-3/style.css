@@ -57,6 +57,9 @@ h1 {
 
 .main-panel {
   display: flex;
+}
+
+.line-items {
   flex-direction: row;
   flex-wrap: wrap;
 }
