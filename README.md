@@ -44,7 +44,7 @@ weekday(new Date(2017, 5, 15)) // returns "Thu"
 
 - [ ] __10:__ A test using expected/valid inputs for the `weekday()` function is written in `tests.js`.
 - [ ] __10:__ A test using unexpected/invalid inputs for the `weekday()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `weekday()` is defined in `functions.js`.
+- [x] __30:__ Correct implementation of the `weekday()` is defined in `functions.js`.
 - [ ] __10:__ Tests for `weekday()` are passing.
 
 ### Get a snippet from text

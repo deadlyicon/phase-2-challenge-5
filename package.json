@@ -2,7 +2,7 @@
   "name": "phase-2-challenge",
   "version": "1.0.0",
   "description": "phase 2 coding challenge",
-  "main": "npm start",
+  "main": "functions.js",
   "scripts": {
     "test": "jasmine"
   },

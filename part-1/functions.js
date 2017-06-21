@@ -1,34 +1,38 @@
-//let month = [
-//  'January',
-//  'February',
-//  'March',
-//  'April',
-//  'May',
-//  'June',
-//  'July',
-//  'August',
-//  'September',
-//  'October',
-//  'November',
-//  'December'
-//]
-//
-//let date = new Date(2017, 5, 19)
-//
-//function weekday(date) {
-//  let day = [
-//    'Mon',
-//    'Tue',
-//    'Wed',
-//    'Thu',
-//    'Fri',
-//    'Sat',
-//    'Sun'
-//  ]
-//
-//}
-//weekday(new Date(2017, 5, 15))
-//
+weekday(new Date(2017, 5, 19))
+
+function weekday(date) {
+let months = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December'
+]
+ let monthOfYear = months[date.getMonth()]
+ let fullDate = monthOfYear + date.getDay() + ', ' + year
+
+  let days = [
+    'Mon',
+    'Tue',
+    'Wed',
+    'Thu',
+    'Fri',
+    'Sat',
+    'Sun'
+  ]
+  let dayOfWeek = days[date.getDay()]
+  return dayOfWeek
+}
+
+weekday(new Date(2017, 5, 15))
+
 /*-----------------------------------------------------*/
 
 function snippet(string, maxlength){
@@ -52,4 +56,3 @@ let filterBetween(array, min, max) =
   arr.filter(function (x, min, max) {
     return x <= min && x >= max
   }
-}
