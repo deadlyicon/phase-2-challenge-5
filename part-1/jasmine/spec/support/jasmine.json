@@ -1,0 +1,11 @@
+{
+  "spec_dir": "part-1",
+  "spec_files": [
+    "function.js"
+  ],
+  "helpers": [
+    "helpers/**/*.js"
+  ],
+  "stopSpecOnExpectationFailure": false,
+  "random": false
+}
