@@ -6,7 +6,7 @@ describe('Determine day of the Week', function() {
 })
 */
 
-describe('return snippet or string', function() {
+describe('snippet', function() {
   it('should return snippet', function() {
     var string = 'Hello world!';
     var maxlength = 5;
@@ -25,5 +25,4 @@ describe('return snippet or string', function() {
         expect(snippet()).toEqual('Hello world!')
       }
     })
-  })
-})
+)}

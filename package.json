@@ -4,7 +4,7 @@
   "description": "phase 2 coding challenge",
   "main": "npm start",
   "scripts": {
-    "test": "npm test"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
     "url": "https://github.com/MsMishi/phase-2-challenge/issues"
   },
   "homepage": "https://github.com/MsMishi/phase-2-challenge#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "jasmine": "^2.6.0"
   }
 }

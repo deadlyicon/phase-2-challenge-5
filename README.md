@@ -86,7 +86,7 @@ numProps({}) // => 0
 
 - [ ] __10:__ A test using expected/valid inputs for the `numProps()` function is written in `tests.js`.
 - [ ] __10:__ A test using unexpected/invalid inputs for the `numProps()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `numProps()` is defined in `functions.js`.
+- [x] __30:__ Correct implementation of the `numProps()` is defined in `functions.js`.
 - [ ] __10:__ Tests for `numProps()` are passing.
 
 ### Filter between
@@ -106,7 +106,7 @@ filterBetween(arr, 5, 10) // => [5, 6, 7]
 
 - [ ] __10:__ A test using expected/valid inputs for the `filterBetween()` function is written in `tests.js`.
 - [ ] __10:__ A test using unexpected/invalid inputs for the `filterBetween()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `filterBetween()` is defined in `functions.js`.
+- [x] __30:__ Correct implementation of the `filterBetween()` is defined in `functions.js`.
 - [ ] __10:__ Tests for `filterBetween()` are passing.
 
 ## Part 2: Extract data from JSON file
@@ -190,8 +190,8 @@ Design a layout to match the following wireframe:
 - [x] __20:__ Page has a "Sections" sidebar with all sections for grocery items
 - [x] __10:__ Page has a main content area showing each of the grocery items
 - [x] __20:__ Main content lists all grocery items' name, price, and an "Add to cart" button
-- [ ] __20:__ Clicking on a section in the "Sections" sidebar will jump to that section
-- [ ] __10:__ Main content organizes all grocery items by section
+- [x] __20:__ Clicking on a section in the "Sections" sidebar will jump to that section
+- [x] __10:__ Main content organizes all grocery items by section
 
 ## Part 4: Quiz time!
 

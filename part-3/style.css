@@ -13,7 +13,7 @@ button {
 .sections-menu ul {
   list-style: none;
   margin-top: 0px;
-  padding-left: 0px
+  padding-left: 0px;
 }
 
 h1 {
@@ -52,6 +52,7 @@ h1 {
 
 .sections-menu {
   border-top: solid 4px black;
+  flex: 1;
 }
 
 .main-panel {
